@@ -3,7 +3,7 @@
   <info>
     <author>NightPhoenix</author>
     <update version="0.0.1">
-      <file name="fighter-harbinger.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/fighter-harbinger.xml"/>
+      <file name="fighter-harbinger.xml" url="https://raw.githubusercontent.com/NightPhoenixV/AuroraHomebrew/refs/heads/main/fighter-harbinger.xml"/>
     </update>
   </info>
   <!-- Harbinger Archetype -->
@@ -45,7 +45,6 @@
   
   <!-- Herald of Battles Past (3rd Level) -->
   <element name="Herald of Battles Past" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_3">
-    <requirements>Base Class: Fighter</requirements>
     <description>
       <p>At 3rd level, channel the memories of countless battles. Once per short or long rest, when you make an attack roll that misses, you may reroll the attack. If the rerolled attack hits, add your Strength modifier to the damage, infusing the strike with the weight of your combat experience.</p>
     </description>
@@ -56,7 +55,6 @@
   
   <!-- Herald of Battles Past (Enhanced) (9th Level) -->
   <element name="Herald of Battles Past (Enhanced)" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_9">
-    <requirements>Requires Herald of Battles Past</requirements>
     <description>
       <p>At 9th level, the additional damage granted by Herald of Battles Past is now considered psychic damage, and you can use the feature twice between short or long rests.</p>
     </description>
@@ -67,7 +65,6 @@
   
   <!-- Herald of Battles Past (Masterful) (15th Level) -->
   <element name="Herald of Battles Past (Masterful)" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_15">
-    <requirements>Requires Herald of Battles Past</requirements>
     <description>
       <p>At 15th level, when using Herald of Battles Past, you may choose the damage type of your entire attack, reshaping your strike to exploit your foes' weaknesses.</p>
     </description>
@@ -78,7 +75,6 @@
   
   <!-- Ominous Reputation (3rd Level) -->
   <element name="Ominous Reputation" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_OMINOUS">
-    <requirements>Base Class: Fighter</requirements>
     <description>
       <p>At 3rd level, your fearsome reputation unnerves foes. When interacting with creatures that know of your legend, you gain advantage on Intimidation checks.</p>
     </description>
@@ -89,7 +85,6 @@
   
   <!-- Visions of Mortality (7th Level) -->
   <element name="Visions of Mortality" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_VISIONS">
-    <requirements>Base Class: Fighter</requirements>
     <description>
       <p>At 7th level, once per long rest as a bonus action, gain foresight for 1 minute:</p>
       <ul>
@@ -104,7 +99,6 @@
   
   <!-- Whispers of the Fallen (7th Level) -->
   <element name="Whispers of the Fallen" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_WHISPERS">
-    <requirements>Base Class: Fighter</requirements>
     <description>
       <p>At 7th level, tap into the memories of the departed once per long rest:</p>
       <ul>
@@ -120,7 +114,6 @@
   
   <!-- Aura of Impending Doom (10th Level) -->
   <element name="Aura of Impending Doom" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_AURA_10">
-    <requirements>Base Class: Fighter</requirements>
     <description>
       <p>At 10th level, your presence exudes dread. Enemies within 10 feet have disadvantage on saving throws against being frightened. Additionally, when an enemy enters your aura or starts their turn in it, they must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be restrained until the start of their next turn.</p>
     </description>
@@ -130,8 +123,7 @@
   </element>
   
   <!-- Aura of Impending Doom (Enhanced) (15th Level) -->
-  <element name="Aura of Impending Doom (Enhanced)" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_AURA_15">
-    <requirements>Requires Aura of Impending Doom</requirements>
+  <element name="Aura of Impending Doom (Enhanced)" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_AURA_15"
     <description>
       <p>At 15th level, your aura intensifies. In addition to its earlier effects, an enemy that fails the saving throw also takes 2d6 psychic damage.</p>
     </description>
@@ -142,7 +134,6 @@
   
   <!-- Legacy of the Battleground (10th Level) -->
   <element name="Legacy of the Battleground" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_LEGACY_BATTLEGROUND">
-    <requirements>Base Class: Fighter</requirements>
     <description>
       <p>At 10th level, your renown grants you proficiency in Persuasion (if you are not already proficient). When invoking your legacy, you can apply double your proficiency bonus to relevant Charisma-based checks.</p>
     </description>
@@ -153,7 +144,6 @@
   
   <!-- Herald of Catastrophe (15th Level) -->
   <element name="Herald of Catastrophe" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_CATASTROPHE">
-    <requirements>Base Class: Fighter</requirements>
     <description>
       <p>At 15th level, your strikes carry the weight of your legend:</p>
       <ul>
@@ -169,7 +159,6 @@
   
   <!-- Omen of the End (18th Level) -->
   <element name="Omen of the End" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_OMEN_END">
-    <requirements>Base Class: Fighter</requirements>
     <description>
       <p>At 18th level, your critical hits become devastating:</p>
       <ul>
@@ -185,7 +174,6 @@
   
   <!-- Legacy's Weight (18th Level) -->
   <element name="Legacy's Weight" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_LEGACY_WEIGHT">
-    <requirements>Base Class: Fighter</requirements>
     <description>
       <p>At 18th level, your legend permeates the world:</p>
       <ul>
