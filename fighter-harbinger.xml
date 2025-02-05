@@ -123,7 +123,7 @@
   </element>
   
   <!-- Aura of Impending Doom (Enhanced) (15th Level) -->
-  <element name="Aura of Impending Doom (Enhanced)" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_AURA_15"
+  <element name="Aura of Impending Doom (Enhanced)" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_AURA_15">
     <description>
       <p>At 15th level, your aura intensifies. In addition to its earlier effects, an enemy that fails the saving throw also takes 2d6 psychic damage.</p>
     </description>
