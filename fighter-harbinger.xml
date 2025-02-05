@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <author>NightPhoenix</author>
+    <update version="0.0.1">
+      <file name="fighter-harbinger.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/fighter-harbinger.xml"/>
+    </update>
+  </info>
+  <!-- Harbinger Archetype -->
+  <element name="Harbinger" type="Archetype" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER">
+    <supports>Martial Archetype</supports>
+    <description>
+      <p>The Harbinger is a testament to both the brutality of battle and the delicate thread of life. Born from the blood-soaked soils of war, they walk the line between life and death. These fighters are not just survivors but living symbols of the consequences of conflict. Many see them as omens of devastation, yet some Harbingers see themselves as custodians of life, for it's only after facing death countless times that one can truly appreciate living. Their combat style reflects this duality, inflicting wounds reminiscent of the battles they've endured while guarding their own life with unparalleled tenacity.</p>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_3"/>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_9"/>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_15"/>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_OMINOUS"/>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_VISIONS"/>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_WHISPERS"/>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_AURA_10"/>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_AURA_15"/>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_LEGACY_BATTLEGROUND"/>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_CATASTROPHE"/>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_OMEN_END"/>
+      <div element="ID_HOME_FIGHTER_HARBINGER_FEATURE_LEGACY_WEIGHT"/>
+    </description>
+    <sheet display="false">
+      <description>The Harbinger balances the fine line between death and survival, channeling the memories of past battles to fuel future triumphs.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_3" level="3"/>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_OMINOUS" level="3"/>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_VISIONS" level="7"/>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_WHISPERS" level="7"/>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_9" level="9"/>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_AURA_10" level="10"/>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_LEGACY_BATTLEGROUND" level="10"/>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_CATASTROPHE" level="15"/>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_15" level="15"/>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_AURA_15" level="15"/>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_OMEN_END" level="18"/>
+      <grant type="Archetype Feature" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_LEGACY_WEIGHT" level="18"/>
+    </rules>
+  </element>
+  
+  <!-- Herald of Battles Past (3rd Level) -->
+  <element name="Herald of Battles Past" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_3">
+    <requirements>Base Class: Fighter</requirements>
+    <description>
+      <p>At 3rd level, channel the memories of countless battles. Once per short or long rest, when you make an attack roll that misses, you may reroll the attack. If the rerolled attack hits, add your Strength modifier to the damage, infusing the strike with the weight of your combat experience.</p>
+    </description>
+    <sheet>
+      <description>When an attack misses, you can reroll it once per rest. If it hits, add your Strength modifier to the damage.</description>
+    </sheet>
+  </element>
+  
+  <!-- Herald of Battles Past (Enhanced) (9th Level) -->
+  <element name="Herald of Battles Past (Enhanced)" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_9">
+    <requirements>Requires Herald of Battles Past</requirements>
+    <description>
+      <p>At 9th level, the additional damage granted by Herald of Battles Past is now considered psychic damage, and you can use the feature twice between short or long rests.</p>
+    </description>
+    <sheet>
+      <description>Your rerolled attack now deals psychic damage, and you gain an extra use between rests.</description>
+    </sheet>
+  </element>
+  
+  <!-- Herald of Battles Past (Masterful) (15th Level) -->
+  <element name="Herald of Battles Past (Masterful)" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_HERALD_15">
+    <requirements>Requires Herald of Battles Past</requirements>
+    <description>
+      <p>At 15th level, when using Herald of Battles Past, you may choose the damage type of your entire attack, reshaping your strike to exploit your foes' weaknesses.</p>
+    </description>
+    <sheet>
+      <description>Choose the damage type of your attack when using this feature.</description>
+    </sheet>
+  </element>
+  
+  <!-- Ominous Reputation (3rd Level) -->
+  <element name="Ominous Reputation" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_OMINOUS">
+    <requirements>Base Class: Fighter</requirements>
+    <description>
+      <p>At 3rd level, your fearsome reputation unnerves foes. When interacting with creatures that know of your legend, you gain advantage on Intimidation checks.</p>
+    </description>
+    <sheet>
+      <description>Gain advantage on Intimidation checks against creatures aware of your reputation.</description>
+    </sheet>
+  </element>
+  
+  <!-- Visions of Mortality (7th Level) -->
+  <element name="Visions of Mortality" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_VISIONS">
+    <requirements>Base Class: Fighter</requirements>
+    <description>
+      <p>At 7th level, once per long rest as a bonus action, gain foresight for 1 minute:</p>
+      <ul>
+        <li><strong>Forewarning:</strong> The first attack made against you each round has disadvantage.</li>
+        <li><strong>Death's Precision:</strong> Add a d6 to one attack roll or saving throw. This die increases to 2d6 at 12th level and 3d6 at 17th level.</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>Once per long rest, as a bonus action, gain foresight imposing disadvantage on the first attack against you each round and add a scaling d6 bonus to one roll.</description>
+    </sheet>
+  </element>
+  
+  <!-- Whispers of the Fallen (7th Level) -->
+  <element name="Whispers of the Fallen" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_WHISPERS">
+    <requirements>Base Class: Fighter</requirements>
+    <description>
+      <p>At 7th level, tap into the memories of the departed once per long rest:</p>
+      <ul>
+        <li><strong>Intuition from the Departed:</strong> Gain advantage on a Wisdom (Insight) or Intelligence (History) check.</li>
+        <li><strong>Guidance in Diplomacy:</strong> Gain advantage on a Charisma (Persuasion) or Charisma (Intimidation) check.</li>
+        <li><strong>Lost Secrets:</strong> Once per week, meditate for 10 minutes to glean a clue about a historical event, place, or person.</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>Gain situational advantages and insights from the departed once per long rest (and once per week for lost secrets).</description>
+    </sheet>
+  </element>
+  
+  <!-- Aura of Impending Doom (10th Level) -->
+  <element name="Aura of Impending Doom" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_AURA_10">
+    <requirements>Base Class: Fighter</requirements>
+    <description>
+      <p>At 10th level, your presence exudes dread. Enemies within 10 feet have disadvantage on saving throws against being frightened. Additionally, when an enemy enters your aura or starts their turn in it, they must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be restrained until the start of their next turn.</p>
+    </description>
+    <sheet>
+      <description>Enemies in your aura suffer disadvantage on fear saves and risk being restrained.</description>
+    </sheet>
+  </element>
+  
+  <!-- Aura of Impending Doom (Enhanced) (15th Level) -->
+  <element name="Aura of Impending Doom (Enhanced)" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_AURA_15">
+    <requirements>Requires Aura of Impending Doom</requirements>
+    <description>
+      <p>At 15th level, your aura intensifies. In addition to its earlier effects, an enemy that fails the saving throw also takes 2d6 psychic damage.</p>
+    </description>
+    <sheet>
+      <description>Your aura now deals 2d6 psychic damage on a failed save along with restraining foes.</description>
+    </sheet>
+  </element>
+  
+  <!-- Legacy of the Battleground (10th Level) -->
+  <element name="Legacy of the Battleground" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_LEGACY_BATTLEGROUND">
+    <requirements>Base Class: Fighter</requirements>
+    <description>
+      <p>At 10th level, your renown grants you proficiency in Persuasion (if you are not already proficient). When invoking your legacy, you can apply double your proficiency bonus to relevant Charisma-based checks.</p>
+    </description>
+    <sheet>
+      <description>Gain Persuasion proficiency and double proficiency bonus on pertinent Charisma checks.</description>
+    </sheet>
+  </element>
+  
+  <!-- Herald of Catastrophe (15th Level) -->
+  <element name="Herald of Catastrophe" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_CATASTROPHE">
+    <requirements>Base Class: Fighter</requirements>
+    <description>
+      <p>At 15th level, your strikes carry the weight of your legend:</p>
+      <ul>
+        <li><strong>Dreadful Strikes:</strong> When you land a weapon attack, add extra psychic damage equal to your Charisma modifier. You may use this ability a number of times per rest equal to your Charisma modifier.</li>
+        <li><strong>Echo of the Fallen:</strong> After reducing an enemy to 0 hit points, your next attack is made with advantage. If another foe is in melee range, you can immediately make that attack as a bonus action.</li>
+        <li><strong>Witness of Legends:</strong> Once per long rest, as an action, recount a tale of battle to either empower allies—granting them temporary hit points equal to 15 + half your fighter level + their Constitution modifier—or intimidate enemies, forcing those within 30 feet to make a Wisdom save (DC = 8 + proficiency bonus + Charisma modifier) or become frightened for 1 minute.</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>Unleash strikes that add psychic damage, grant attack advantages, and once per rest inspire allies or instill fear in foes.</description>
+    </sheet>
+  </element>
+  
+  <!-- Omen of the End (18th Level) -->
+  <element name="Omen of the End" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_OMEN_END">
+    <requirements>Base Class: Fighter</requirements>
+    <description>
+      <p>At 18th level, your critical hits become devastating:</p>
+      <ul>
+        <li><strong>Doombringer:</strong> On a critical hit, the target and all enemies within 10 feet must succeed on a Wisdom saving throw (DC = 8 + proficiency bonus + Charisma modifier) or be paralyzed for 1 round and take 6d8 psychic damage plus your Charisma modifier and fighter level. On a successful save, they take half damage and are not paralyzed.</li>
+        <li><strong>Last Stand:</strong> Once per long rest, as an action, create a 30-foot aura for 1 minute. Allies within the aura gain a bonus to damage rolls equal to your Charisma modifier, increased healing equal to your fighter level, and can immediately make a saving throw against incapacitating effects.</li>
+        <li><strong>Unyielding Determination:</strong> Once per long rest, when you would be reduced to 0 hit points, drop to 1 hit point instead. For 1 minute, you become immune to all damage, though you fall unconscious after this effect ends.</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>Your critical hits now trigger powerful effects that can paralyze foes, bolster allies, and keep you standing in dire moments.</description>
+    </sheet>
+  </element>
+  
+  <!-- Legacy's Weight (18th Level) -->
+  <element name="Legacy's Weight" type="Archetype Feature" source="Homebrew" id="ID_HOME_FIGHTER_HARBINGER_FEATURE_LEGACY_WEIGHT">
+    <requirements>Base Class: Fighter</requirements>
+    <description>
+      <p>At 18th level, your legend permeates the world:</p>
+      <ul>
+        <li><strong>Voice of the Legend:</strong> Once per long rest, automatically succeed on one saving throw, skill check, or ability check, and treat any roll of 1 as a 20.</li>
+        <li><strong>Land's Memory:</strong> Locations significant to your journey gain benefits such as prosperity, remembrance, or sanctuary.</li>
+        <li><strong>Gifts of Legend:</strong> Once per long rest, call upon your legacy to automatically succeed on a saving throw, skill check, or ability check.</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>Your legendary status turns failures into triumphs with automatic successes and exceptional boon effects.</description>
+    </sheet>
+  </element>
+  
+</elements>
+
