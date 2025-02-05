@@ -4,7 +4,7 @@
     <!-- You can include an author here if you want -->
     <author>NightPhoenix</author>
     <update version="0.0.1">
-      <file name="fighter-harbinger.xml" url="https://raw.githubusercontent.com/NightPhoenixV/AuroraHomebrew/refs/heads/main/fighter-harbinger.xml"/>
+      <file name="fighter-harbinger.xml"https://raw.githubusercontent.com/NightPhoenixV/AuroraHomebrew/refs/heads/main/fighter-harbinger.xml"/>
     </update>
   </info>
   <!-- Optionally, you can include more elements here if you have multiple files -->
